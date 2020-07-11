@@ -5,4 +5,4 @@
 - 🏫 I'm a student at the *Hong Kong University of Science and Technology*
 - 📧 How to reach me: email me at thomas@ipthomas.com
 
-Have a awesome day :octocat:
+Have an awesome day :octocat:
