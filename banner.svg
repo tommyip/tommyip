@@ -1,0 +1,48 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+        :root {
+          font-size: 17px;
+        }
+
+        .container {
+          width: 100%;
+          height: 100%;
+          border-radius: 8px;
+          padding: 2rem;
+
+          font-family: 'Roboto', sans-serif;
+          background: linear-gradient(to right, #283048, #859398);
+          color: #fff;
+          display: grid;
+          place-items: center;
+        }
+
+        .tagline {
+          font-size: 2.5rem;
+          font-weight: 300;
+          margin-bottom: 1rem;
+        }
+
+        .btn {
+          font-size: 1.5rem;
+          font-weight: 600;
+          background-color: #0078D7;
+          border: 0;
+          border-radius: 5px;
+          color: white;
+          padding: 1rem 1.5rem;
+        }
+
+        .btn:hover {
+          transform: translateY(-1px);
+        }
+			</style>
+			<div class="container">
+				<div class="tagline">Hi there, I am Thomas 👋</div>
+        <a href="https://ipthomas.com" class="btn">Blog</a>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
