@@ -1,13 +1,6 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
-      <script type="text/javascript">
-      <![CDATA[
-        document.addEventListener('keydown', function(event) {
-          console.log(event.keyCode);
-        });
-      ]]>
-      </script>
 			<style>
         :root {
           font-size: 17px;
@@ -50,4 +43,29 @@
 			</div>
 		</div>
 	</foreignObject>
+  <circle cx="250" cy="250" r="50" fill="red" />
+  <script type="text/javascript">
+  <![CDATA[
+    const circle = document.getElementsByTagName("circle")[0];
+    const moveSpeed = 5;
+    let x = circle.getAttribute('cx')*1;
+    let y = circle.getAttribute('cy')*1;
+    document.addEventListener('keydown', function(event) {
+      switch(event.key) {
+      case 'w':
+        circle.setAttribute('cy', y-=moveSpeed);
+        break;
+      case 'a':
+        circle.setAttribute('cx', x-=moveSpeed);
+        break;
+      case 's':
+        circle.setAttribute('cy', y+=moveSpeed);
+        break;
+      case 'd':
+        circle.setAttribute('cx', x+=moveSpeed);
+        break;
+      }
+    });
+  ]]>
+  </script>
 </svg>
